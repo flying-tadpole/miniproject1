@@ -1,28 +1,67 @@
-*{
-    background-color: beige;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-header{
+header {
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(123, 165, 202);
+    text-align: center;
     position: fixed;
-    top: 0px;
+    top: 0;
+    display: block;
+    width: 100%;
 }
 
-.header_links{
-    text-align: right;
-    display: inline;
-    /* position: fixed; */
-    /* right: 50%; */
-    /* font-weight: bolder; */
+.header h1 {
+    font-size: 75px;
 }
 
-ul{
-    display: flex;
-    list-style-type: none;
+header h1 .nt {
+    color: rgb(20, 0, 109);
+    opacity: 25%;
+    font-style: italic;
+}
+
+nav ul {
+    padding-top: 20px;
+    float: center;
+    font-size: 20px;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 25px;
 }
 
 .body_text{
-    outline: black solid 5px;
-    margin-top: 200px;
+    outline: black dotted 5px;
+    margin-top: 8%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
 }
 
+main section h2{
+    font-size: larger;
+    font-style: italic;
+}
+
+#story_start {
+    /* padding-top: 100px; */
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
