@@ -37,6 +37,12 @@ nav ul li{
     margin-left: 25px;
 }
 
+main {
+    background-image:url(./Assets/AdobeStock_339767705.jpeg);
+    background-repeat: no-repeat;
+    opacity: 50%;
+}
+
 .story{
     outline: black dotted 5px;
     margin-top: 8%;
