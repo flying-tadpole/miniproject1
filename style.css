@@ -37,13 +37,15 @@ nav ul li{
     margin-left: 25px;
 }
 
-.body_text{
+.story{
     outline: black dotted 5px;
     margin-top: 8%;
     margin-right: 2%;
     margin-left: 2%;
     margin-bottom: 2%;
     padding: 1%;
+    font-size: 15px;
+    text-align: center;
 }
 
 main section h2{
